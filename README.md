@@ -18,6 +18,8 @@
      
    * What variable(s) are considered to be the features for your model?
       - Application Type, Affiliation, use case, Income Amt etc are the features of the model
+
+    ![](https://github.com/SuniAnalytics/Neural_Network_Charity_Analysis/blob/main/Resources/1.%20Target%20and%20Features.png)
    
    * What variable(s) are neither targets nor features, and should be removed from the input data?
      - Few variables like EIN and NAME are dropped from the dataset
@@ -27,8 +29,14 @@
 
    * How many neurons, layers, and activation functions did you select for your neural network model, and why?
       - 100 nuerons, 3 layers, Signoid and Relu 
+
+    ![](https://github.com/SuniAnalytics/Neural_Network_Charity_Analysis/blob/main/Resources/2.%20Model%20Parameters.png)
+      
    * Were you able to achieve the target model performance?
-      - Yes
+      - Yes, acheived 79% accuracy for the model
+      
+    ![](https://github.com/SuniAnalytics/Neural_Network_Charity_Analysis/blob/main/Resources/3.%20Model%20Performance.png)
+    
    * What steps did you take to try and increase model performance?
       - Used a combination of different features to see which features are having a higher impact on model performance.
 
