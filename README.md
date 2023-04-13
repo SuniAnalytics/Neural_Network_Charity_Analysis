@@ -26,9 +26,16 @@
 * Compiling, Training and Evaluating the model
 
    * How many neurons, layers, and activation functions did you select for your neural network model, and why?
+      - 100 nuerons, 3 layers, Signoid and Relu 
    * Were you able to achieve the target model performance?
+      - Yes
    * What steps did you take to try and increase model performance?
+      - Used a combination of different features to see which features are having a higher impact on model performance.
 
 ## Summary 
 
+   
+
 Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+
+
