@@ -22,18 +22,18 @@
    * Target variable for the model
      - IS_SUCCESSFUL is the target variable for the model
      
-   * What variable(s) are considered to be the features for your model?
+   * Features selected for the model
       - Application Type, Affiliation, use case, Income Amt etc are the features of the model
 
     ![](https://github.com/SuniAnalytics/Neural_Network_Charity_Analysis/blob/main/Resources/1.%20Target%20and%20Features.png)
    
-   * What variable(s) are neither targets nor features, and should be removed from the input data?
+   * Variables removed from the input data
      - Few variables like EIN and NAME are dropped from the dataset
 
 
 * Compiling, Training and Evaluating the model
 
-   * How many neurons, layers, and activation functions did you select for your neural network model, and why?
+   * No.of neurons, layers, and activation functions used for the nueral network model
       - 100, 80, 30 nuerons
       - 3 layers
       - Activation functions: 
@@ -42,12 +42,12 @@
 
     ![](https://github.com/SuniAnalytics/Neural_Network_Charity_Analysis/blob/main/Resources/2.%20Model%20Parameters.png)
       
-   * Were you able to achieve the target model performance?
+   * Achieved target model performance
       - Yes, acheived 79% accuracy for the model
       
     ![](https://github.com/SuniAnalytics/Neural_Network_Charity_Analysis/blob/main/Resources/3.%20Model%20Performance.png)
     
-   * What steps did you take to try and increase model performance?
+   * Approach taken to improve the model performance
       - Used a combination of different features to see which features are having a higher impact on model performance. 
       - Increased numbers of nuerons on one of the hidden layers and then created one with three layers instead of 2
 
