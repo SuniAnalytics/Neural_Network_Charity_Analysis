@@ -13,7 +13,7 @@
 
 * Data Processing
 
-   * What variable(s) are considered the target(s) for your model?
+   * Target variable for the model
      - IS_SUCCESSFUL is the target variable for the model
      
    * What variable(s) are considered to be the features for your model?
