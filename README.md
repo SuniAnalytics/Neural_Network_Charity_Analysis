@@ -8,6 +8,12 @@
   
   Objective is to analyse the data set and build a machine learning, nueral network model with high accuracy to provide predictions.
   
+  We use the following methods for the analysis:
+
+     - preprocessing the data for the neural network model
+     - compile, train and evaluate the model
+     - optimize the model
+  
 
 ## Results
 
@@ -28,7 +34,11 @@
 * Compiling, Training and Evaluating the model
 
    * How many neurons, layers, and activation functions did you select for your neural network model, and why?
-      - 100 nuerons, 3 layers, Signoid and Relu 
+      - 100, 80, 30 nuerons
+      - 3 layers
+      - Activation functions: 
+           Relu: For the hidden layers
+           Signoid: For binary classification
 
     ![](https://github.com/SuniAnalytics/Neural_Network_Charity_Analysis/blob/main/Resources/2.%20Model%20Parameters.png)
       
@@ -39,6 +49,7 @@
     
    * What steps did you take to try and increase model performance?
       - Used a combination of different features to see which features are having a higher impact on model performance.
+      - Increased numbers of nuerons on one of the hidden layers and then created one with three layers instead of 2
 
 ## Summary 
 
