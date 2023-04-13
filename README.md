@@ -53,7 +53,7 @@
 
 ## Summary 
 
-       ![](https://github.com/SuniAnalytics/Neural_Network_Charity_Analysis/blob/main/Resources/3.%20Model%20Performance.png)
+     ![](https://github.com/SuniAnalytics/Neural_Network_Charity_Analysis/blob/main/Resources/3.%20Model%20Performance.png)
 
        After optimizing the model, accuracy improved to 79% with loss of 43%. Accuracy is higher than the attempted target of 75% and with a decent loss%. 
        However, we still can do some adjustment or try to compare with other supervised machine learning model such as the Random Forest Classifier to generate a classified output. 
